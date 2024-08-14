@@ -1,0 +1,313 @@
+body {
+  font-family: "TS-Reg";
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+header {
+  height: 60px;
+  background-color: white;
+  font-weight: inherit;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo-tripadvisor {
+  width: 190px;
+  height: 40px;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .container nav div:hover {
+  padding: 10px 10px;
+  background-color: #eaeaea75;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav button {
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  padding: 0 10px;
+  font-size: 16px;
+  font-family: TS-Reg, sans-serif;
+}
+
+header nav button:hover {
+  background-color: #ff5e5e;
+  border: black solid 0px;
+  color: white;
+  cursor: pointer;
+}
+
+header nav div {
+  display: flex;
+  padding: 10px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-right: 10px;
+}
+
+header nav div:last-child {
+  margin-left: 10px;
+}
+
+nav div p {
+  font-family: TS-Reg, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+nav div i {
+  font-size: 24px;
+}
+
+h1 {
+  font-size: 54px;
+  font-weight: 700;
+  padding-top: 20px;
+  line-height: 70px;
+}
+
+h1 span {
+  font-family: "TS-Med";
+  color: #ff5e5e;
+}
+
+.subtitle {
+  color: #333333;
+  font-size: 14px;
+  font-family: TS-Reg, sans-serif;
+  margin-bottom: 30px;
+}
+
+.subtitle a {
+  color: #333333;
+}
+
+.site-nav {
+  height: 92px;
+  display: flex;
+  flex: 1;
+  gap: 10px;
+}
+
+.site-nav div {
+  border: black solid 1px;
+  border-radius: 16px;
+  flex: 1;
+  padding: 12px 15px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 26px;
+}
+
+.site-nav div:hover {
+  background-color: black;
+  border: black solid 0px;
+  color: white;
+  cursor: pointer;
+}
+
+.text-nav {
+  font-family: "TS-Reg";
+}
+
+.container nav i {
+  font-size: 16px;
+}
+
+.photos {
+  height: 430px;
+  display: flex;
+  gap: 2px;
+  margin-bottom: 20px;
+}
+
+.secondary-photos {
+  display: flex;
+  flex-direction: column;
+  width: 411px;
+  gap: 2px;
+  justify-content: space-around;
+}
+
+.secondary-photos img {
+  height: calc(50% - 1px);
+  object-fit: cover;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  color: #333333;
+  font-size: 12px;
+  margin-bottom: 40px;
+}
+
+.left-menu {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.description {
+  display: flex;
+  margin-bottom: 56px;
+}
+
+.description .col1 {
+  width: 50%;
+}
+
+.col1 h2 {
+  font-family: "TS-Med";
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  letter-spacing: 0.6px;
+}
+
+.col1 p {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  color: #333333;
+  line-height: 24px;
+}
+
+.col1 {
+  width: 50%;
+}
+
+.col2 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 120px;
+  width: 50%;
+}
+
+.col2 div {
+  padding-left: 120px;
+  background-color: #ff5e5e;
+  padding: 16px;
+  border-radius: 16px 16px 0 0;
+}
+
+.col2 h3 {
+  font-size: 32px;
+  font-family: "TS-Reg";
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.col2 p {
+  margin-bottom: 24px;
+}
+
+.col2 button {
+  width: 154px;
+  height: 54px;
+  border: none;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  font-family: TS-Reg, sans-serif;
+}
+
+.col2 button:hover {
+  background-color: #ff5e5e;
+  border: white solid 1px;
+  color: white;
+  cursor: pointer;
+}
+
+.map {
+  height: 190px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0 0 16px 16px;
+}
+
+.section-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-1 h2 {
+  font-size: 32px;
+  font-family: "TS-Med";
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.section-1 div {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.infos {
+  display: flex;
+  flex-direction: column;
+  padding-right: 30px;
+}
+
+.infos h3 {
+  font-size: 24px;
+  font-family: "TS-Reg";
+  font-weight: 700;
+}
+
+.infos p {
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.infos a {
+  color: black;
+}
+
+.carousel {
+  display: flex;
+  overflow: scroll;
+  border: solid black 2px;
+}
+
+.carousel-content div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.carousel-content img {
+  object-fit: cover;
+}
